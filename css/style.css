@@ -7,9 +7,16 @@ h1 {
 }
 
 .ball {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 100px;
     height: 100px;
     margin: 100px auto;
+    border-radius: 50%; 
+
     background-color: blue;
-    border-radius: 50%;
+    font-size: 22px;
+    font-weight: bold;
 }
